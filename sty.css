@@ -1,0 +1,459 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Lobster+Two&family=Secular+One&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.p1{
+  margin:0;
+}
+
+body{
+  background-color: #f6dfeb;
+}
+
+#d2{
+  background-color:#dbdbd9;
+}
+
+a:link, a:visited {
+  color: #151515;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:link:active, a:visited:active {
+  color: #151515;
+}
+
+hr {
+  margin: 0 auto;
+  border:none;
+  border-top:7px dotted  #7868e6;
+  width: 8%;
+}
+
+/*--------------------title-----------------------------------*/
+.t1 {
+  font-family: 'Lora', serif;
+  padding-top: 60px;
+  text-align: center;
+  line-height: 20px;
+  width: auto;
+  font-size: 20px;
+}
+
+.t2 {
+  font-family: 'Lora', serif;
+  text-align: center;
+
+  width: auto;
+
+  font-size: 50px;
+}
+
+.t3 {
+  margin: 0;
+  font-family:'Lora', serif;
+  font-size: 30;
+  text-align: center;
+}
+
+#title1 {
+  background-color: #dbdbd9;
+}
+
+/*
+--------------------------------
+-----------navbar---------------
+--------------------------------
+*/
+
+
+
+#d2 .navbar{
+  background-color:#dbdbd9;
+}
+
+
+#d2 .navbar-nav {
+  margin: 0 auto;
+  
+  
+} 
+
+#d2 .navbar-nav a{
+  margin-left:2rem;
+  color:grey;
+} 
+
+
+/* -------------------------------------------
+------------------img slider------------------
+----------------------------------------------
+*/
+
+#carouseltitle{
+  margin-top:2rem;
+}
+
+#carouseltitle .ccontaer{
+  position:absolute;
+  
+}
+#carouseltitle .c1{
+  border: 7px solid #dbf6e9;
+  height: 30rem;
+  width: 30rem;
+  border-radius: 100%;
+  position:absolute;
+  z-index: 3;
+  left:40px ;
+  
+}
+
+#carouseltitle .carouselbtn{
+  position:absolute;
+  bottom:17rem;
+  font-weight: bold;
+  width:100%;
+  
+}
+
+#carouseltitle .carouselbtn .carousel-control-next{
+  position: absolute;
+  margin-right: auto;
+  
+}
+
+#carouselExampleControls{
+   margin: 0 auto;
+   width:35rem ;
+   position: relative;
+   
+}
+
+#carouselExampleControls img{
+  border:1.5px solid #ffaaa7;
+  height: 30rem;
+  
+}
+
+
+
+#carouseltitle .carouselbtn button{
+  height: 12rem;
+  width: 12rem;
+  margin:auto 0;
+  color: #ff75a0;;
+  position: relative;
+  font-size:3rem;
+}
+
+
+
+
+
+
+
+/* -----------------------------------
+--------------recently added pictures-------------
+--------------------------------------------------
+*/
+
+.rrow{
+  margin-bottom:4rem;
+}
+
+.recentlyAddedImg{
+  font-size:4rem;
+  font-family: sans-serif;
+  position: relative;
+  text-align: center;
+  padding-top:40px;
+  margin-top:4rem ;
+}
+
+.recentlyAddedImg h3{
+  margin-bottom: 7rem;
+  color:white;
+}
+
+
+.recentlyAddedImg img{
+  border: 1px solid #b67162;
+  height: 330px;
+  width: 400px;
+  border-radius:10px ;
+}
+
+ 
+
+
+
+/* -------------------------------------------------------------
+-----------------contact at the bottom of page------------------
+---------------------------------------------------------------- */
+
+.footer{
+  height: 10rem;
+  background-color: #e4bad4;
+  text-align:center;
+  color: #dbf6e9;
+  margin-top:4.5rem;
+}
+
+.footer .content{
+  margin-right:2rem;
+}
+
+.footer a{
+  color: #dbf6e9;
+  font-size:1.7rem;
+  padding-left:2rem ;
+}
+
+.footer p{
+   padding-top:2rem;
+}
+
+/*
+-------------------------------------------
+-----------most pages not mobile----------- 
+-------------------------------------------
+ */
+
+ .cakepageimg{
+   width: auto;
+ }
+
+.Aptitle{
+  color:white;
+  text-align: center;
+  font-family: 'Cabin Sketch', cursive;
+  
+}
+
+.Aptitle h1{
+  margin-top:7rem;
+  margin-bottom:9rem ;
+  font-size: 10rem;
+}
+
+.cakepageimg .imgr {
+  text-align: center;
+  margin-left:4rem;
+  width:350px;
+  padding:0;
+}
+
+.cakepageimg .imgr img {
+  height: 320px;
+  width: 350px;
+  border-radius:10px ;
+  position: relative;
+  margin-bottom:4rem ;
+}
+
+.none {
+  display: none;
+  font-size: 0;
+}
+
+.cakepageimg .imgr video {
+    width:22rem;
+    height: 20rem;
+    object-fit: cover;
+    border-radius:10px ;
+    
+    
+}
+
+.imgr .playiconstyle{
+  position: relative;
+  bottom: 20rem;
+  font-size: 5rem;
+  color: rgba( 0,0,0,80%);
+  z-index:4;
+}
+
+
+
+
+
+/* ------------------------------
+   _________moblie---------------
+ */
+
+@media (max-width: 1000px) {
+
+
+hr {
+  width: 5rem;
+  position: relative;
+  left: 6rem;
+}
+/* ------------ NAVBAR --------------- */
+
+#d2 .navbar{
+  width: 100%;
+  
+}
+
+  #d2 .navbar-nav{
+    display: block;
+    left: auto;
+    
+  }
+
+  #d2 .navbar-toggler{
+    position: absolute;
+    bottom:10rem;
+  }
+
+  #d2 .navbar .navbar-nav .nav-link {
+    text-align: center;
+    margin:0;
+  }
+
+  
+/* ---------------- carousel ---------------- */
+
+
+  #carouseltitle{
+    overflow: hidden;
+  }
+
+
+  #carouseltitle .carouselbtn{
+    position:absolute;
+    font-weight: bold;
+    width:100%;
+    top: 30rem; 
+    
+  }
+
+  #carouseltitle #prev{
+    width: 2rem;
+    height: 3rem;
+    margin-left: 10px;
+    position: absolute;    
+  }
+
+  #carouseltitle #next{
+    width: 2rem;
+    margin-right: 10px;
+    height: 3rem;
+    
+  }
+  
+  #carouseltitle .carouselbtn .carousel-control-next{
+    position: absolute;
+    margin-right: auto;
+    
+  }
+
+  #carouseltitle .c1{
+    width: 375px;
+    height: 400px;
+    left:0px;
+    top:15px;
+  }
+
+  #carouselExampleControls{
+    width: 100%;
+  }
+
+  #carouselExampleControls img{
+    width: auto;
+  }
+
+
+/* 
+------------------------------------------------
+------------ recent andded imgs ---------------- 
+------------------------------------------------
+*/
+
+  
+  .recentlyAddedImg .row img{
+    margin-bottom:2rem ;
+    height: 25rem;
+    width: 95%;
+  }
+
+  .rrow{
+    margin-bottom:0 ;
+  }
+
+  /* 
+  ---------------------------
+  -------- mostpages --------
+  ---------------------------
+  */
+  .cakepageimg{
+    /* overflow: hidden; */
+    height: 100%;
+    width: 100%; 
+    padding: 0;
+    margin: 0;
+  }
+
+  .cakepageimg .Aptitle h1{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size:5rem;
+  }
+
+
+  .cakepageimg .imgr{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    
+  } 
+
+  .cakepageimg .imgr img{
+    width: 100%;
+    height: 25rem;
+    /* width: 95%; */
+    margin-left:auto;
+    margin-right:auto;
+    object-fit: cover;
+    object-position: center;
+  
+  }
+
+  .cakepageimg .imgr video {
+    height: 25rem;
+    /* width: 95%; */
+    /* margin-left:auto;
+    margin-right:auto; */
+  }
+
+
+
+  /* 
+  ---------------------------
+  --------- footer ----------
+  ---------------------------
+   */
+
+
+  .cakeImg {
+    /* overflow: hidden; */
+    position: relative;
+    right: 5.8rem;
+  }
+
+  .cakeImg h1{
+    font-size: 50px ;
+    position: relative;
+    left:6rem;
+    
+  }
+  
+}
+
