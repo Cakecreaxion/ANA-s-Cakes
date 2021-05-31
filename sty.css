@@ -16,6 +16,10 @@ body{
 
 #d2{
   background-color:#dbdbd9;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100%;
 }
 
 a:link, a:visited {
@@ -96,7 +100,8 @@ hr {
 */
 
 #carouseltitle{
-  margin-top:2rem;
+  
+  margin-top: 20rem;
 }
 
 #carouseltitle .ccontaer{
@@ -225,6 +230,9 @@ hr {
 -----------most pages not mobile----------- 
 -------------------------------------------
  */
+ .title-margin{
+  margin-top: 20rem;
+}
 
  .cakepageimg{
    width: auto;
@@ -281,6 +289,39 @@ hr {
 }
 
 
+/* -------------------------------
+--------------contactpage==========
+===================================
+ */
+
+.contactpage{
+  text-align: center;
+  color: #afb9c8;
+}
+
+
+
+.phonenum{
+  display: flex;
+  width: 300px;
+  height: 50px;
+  background: linear-gradient(86deg, rgba(246,246,246,1) 0%, rgba(241,89,206,1) 100%);
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  color: #325288;
+  font-weight: 600;
+  border-radius: 20px;
+}
+
+.botttom-s{
+  position: absolute;
+  bottom: -25px;
+  width: 100%;
+}
+
+
 
 
 
@@ -325,6 +366,7 @@ hr {
 
   #carouseltitle{
     overflow: hidden;
+    margin-top: 14rem;
   }
 
 
@@ -394,12 +436,17 @@ hr {
   -------- mostpages --------
   ---------------------------
   */
+
+  .title-margin{
+    margin-top: 14rem;
+  }
   .cakepageimg{
     /* overflow: hidden; */
     height: 100%;
     width: 100%; 
     padding: 0;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .cakepageimg .Aptitle h1{
